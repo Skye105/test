@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Titlea from './title.js';
+import "./borders.css"
+import Titlea from './yippie.js';
+import Textlol from './yippie2.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-	<Titlea test="ciao" />
+	<Titlea test="Titolo" />
+	<Textar imgsrc="./img.png" imgdisc="hi!" textlol="heyo! how's it going" />
 	</React.StrictMode>
 );
 
