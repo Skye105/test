@@ -1,6 +1,6 @@
 import './title.css';
 
-function titlea(props){
+function Titlea(props){
 	return(
 		<div>
 			<h1>{props.test}</h1>
@@ -8,4 +8,4 @@ function titlea(props){
 	);
 }
 
-export default titlea;
+export default Titlea;
