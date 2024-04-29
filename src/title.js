@@ -1,8 +1,10 @@
 import './title.css';
 
-function titlea({test}){
+function titlea(props){
 	return(
-		<h1>ciao!</h1>
+		<div>
+			<h1>{props.test}</h1>
+		</div>
 	);
 }
 
