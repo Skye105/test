@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./borders.css"
 import Titlea from './yippie.js';
-import Textlol from './yippie2.js'
+import Textar from './yippie2.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

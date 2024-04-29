@@ -1,4 +1,5 @@
 import "./yippie.css"
+import React from 'react';
 
 function Titlea(prop){
 	return(
